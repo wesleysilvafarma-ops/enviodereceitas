@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Formulário Simples</title>
+</head>
+<body>
+<h2>Envie seu arquivo</h2>
+<form action="https://formsubmit.co/wesley.silvafarma@gmail.com" method="POST" enctype="multipart/form-data">
+<label for="name">Nome:</label><br>
+<input type="text" name="name" required><br><br>
+
+<label for="file">Arquivo:</label><br>
+<input type="file" name="file" required><br><br>
+
+<button type="submit">Enviar</button>
+
+<!-- Configurações extras -->
+<input type="hidden" name="_subject" value="Novo envio de arquivo!">
+<input type="hidden" name="_captcha" value="false">
+</form>
+</body>
+</html>
